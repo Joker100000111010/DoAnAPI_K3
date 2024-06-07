@@ -1,0 +1,42 @@
+﻿@model MVC_API_DoAn.Models.DTO.ShopDTO
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="~/API_Do_An/assets/images/coffee-icon-sign-symbol-design-free-png.webp" type="image/x-icon">
+    <meta name="description" content="">
+    <title>Product Description</title>
+
+    <link rel="stylesheet" href="~/API_Do_An/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/API_Do_An/assets/theme/css/style.css">
+    <link rel="stylesheet" href="~/API_Do_An/assets/mobirise/css/mbr-additional.css" type="text/css">
+</head>
+
+<body>
+
+
+    <section class="content2 cid-tsEQSCqggh" id="content2-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div style="display: grid; grid-template-columns: 50% 50%; width: 80%; margin: auto;" class="card">
+                        <div> <img src="~/API_DoAn/assets/Anh/@Model.ImageUrl" class="card-img-top img-fluid" alt="Product Image" id="product-image"></div>
+                        <div class="card-body">
+                            <h5 class="card-title" id="product-title">@Model.TenSP</h5>
+                            <p class="card-text" id="product-price">@Model.GiaTien đ</p>
+                            <p class="card-text" id="product-description">@Model.MoTa</p>
+                            <a asp-controller="ShopController1" asp-action="TrangChu" class="btn btn-secondary">Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/API_Do_An/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

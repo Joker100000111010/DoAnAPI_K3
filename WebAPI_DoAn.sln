@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_DoAn", "WebAPI_DoAn\WebAPI_DoAn.csproj", "{549B372A-5782-46FA-866E-66FADE61AEF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_API_DoAn", "MVC_API_DoAn\MVC_API_DoAn.csproj", "{8F88B6E8-4361-4EF4-BBF7-56C548B67B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{549B372A-5782-46FA-866E-66FADE61AEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549B372A-5782-46FA-866E-66FADE61AEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549B372A-5782-46FA-866E-66FADE61AEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549B372A-5782-46FA-866E-66FADE61AEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F88B6E8-4361-4EF4-BBF7-56C548B67B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F88B6E8-4361-4EF4-BBF7-56C548B67B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F88B6E8-4361-4EF4-BBF7-56C548B67B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F88B6E8-4361-4EF4-BBF7-56C548B67B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6350E010-6EEE-4728-8C8E-98D7181C615E}
+	EndGlobalSection
+EndGlobal

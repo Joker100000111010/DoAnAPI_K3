@@ -1,0 +1,127 @@
+﻿@model IEnumerable<MVC_API_DoAn.Models.DTO.ShopDTO>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="">
+    <title>Product Management</title>
+
+
+
+    <!-- Thêm CSRF Token vào thẻ meta -->
+</head>
+
+<body>
+
+
+
+    <!-- Phần Content của trang index -->
+    <section data-bs-version="5.1" class="content2 cid-tsEQSCqggh" id="content2-2">
+        <div class="container">
+            <div class="mbr-section-head">
+                <div class="search-container">
+                    <!--
+                        <form action="/Products/Search" method="get">
+                        <input type="text" name="searchString" placeholder="Tìm Kiếm...." style="width: 100%;">
+                        <button type="submit">Tìm Kiếm</button>
+                    </form>
+                    -->
+                    <form asp-action="Search" method="get" onsubmit="return validateSearchForm()">
+                        <input type="text" name="query" id="searchInput" placeholder="Nhập tên sản phẩm..." />
+                        <button type="submit">Tìm Kiếm</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="text-right mb-3">
+                <a class="btn btn-primary" asp-controller="ShopController1" asp-action="addShop">Create Product</a>
+            </div>
+    
+            <div class="row mt-4" id="product-list">
+                @foreach(var item in Model)
+                {
+                    <div class="col-md-4 product-card d-flex justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src="~/API_DoAn/assets/Anh/@item.ImageUrl" style="height: 500px;" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.TenSP</h5>
+                                <p class="card-text">@item.GiaTien đ</p>
+                                <a asp-controller="ShopController1" asp-action="editShop" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                                <a asp-controller="ShopController1" asp-action="MoTa" asp-route-id="@item.Id" as class="btn btn-primary">Description</a>
+                                <button onclick="confirmDelete(@item.Id)" class="btn btn-danger">Delete</button>
+
+                            </div>
+                        </div>
+                    </div>
+                }
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="~/API_DoAn/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="~/API_DoAn/assets/parallax/jarallax.js"></script>
+    <script src="~/API_DoAn/assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="~/API_DoAn/assets/ytplayer/index.js"></script>
+    <script src="~/API_DoAn/assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="~/API_DoAn/assets/theme/js/script.js"></script>
+    <script src="~/API_DoAn/assets/theme/js/script.js"></script>
+    <!-- cs slide -->
+    <!-- js slide -->
+    <script>
+        cript >
+            function validateSearchForm() {
+                var searchQuery = document.getElementById("searchInput").value;
+                if (!searchQuery.trim()) {
+                    alert("Vui lòng nhập từ khóa tìm kiếm.");
+                    return false; // Ngăn form gửi đi nếu trường input không được nhập
+                }
+                return true; // Cho phép form gửi đi nếu trường input đã được nhập
+            }
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 3000, // Độ trễ giữa các slide (miligiây)
+            },
+            loop: true, // Lặp lại slide
+            pagination: {
+                el: '.swiper-pagination', // Chọn phần tử hiển thị chỉ số
+                clickable: true, // Cho phép click vào chỉ số để chuyển slide
+            },
+            navigation: {
+                nextEl: '.swiper-button-next', // Chọn phần tử điều khiển slide tiếp theo
+                prevEl: '.swiper-button-prev', // Chọn phần tử điều khiển slide trước đó
+            },
+        });
+        function confirmDelete(id) {
+            if (confirm('Bạn có chắc muốn xóa sản phẩm này không?')) {
+                deleteProduct(id);
+            }
+        }
+
+        function deleteProduct(id) {
+            fetch(`/ShopController1/delShop/${id}`, {
+                method: 'DELETE'
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Xóa sản phẩm thành công, có thể thực hiện các hành động cần thiết ở đây
+                        // Ví dụ: cập nhật lại danh sách sản phẩm trên trang
+                        window.location.reload();
+                    } else {
+                        alert('Xóa sản phẩm thất bại. Vui lòng thử lại.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Lỗi khi gửi yêu cầu DELETE:', error);
+                    alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                });
+        }
+    </script>
+</body>
+
+</html>
+

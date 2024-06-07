@@ -1,0 +1,42 @@
+﻿@model MVC_API_DoAn.Models.DTO.ShopDTO
+<body>
+    <div class="container">
+        <h2 class="card-title mbr-section-title mbr-fonts-style align-center mb-4 display-2" style="margin-top:30px;">Edit Product</h2>
+        @if (Model != null)
+        {
+            <form asp-controller="ShopController1" asp-action="editShop" method="POST" id="edit-product-form">
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="TenSP">Product Name:</label>
+                    <input type="text" class="form-control" asp-for="TenSP" required>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageUrl">Image URL:</label>
+                    <input type="file" class="form-control" name="ImageUrl" asp-for="ImageUrl" accept="image/* " required>
+                </div>
+                <div class="form-group">
+                    <label asp-for="GiaTien">Price:</label>
+                    <input type="number" class="form-control" asp-for="GiaTien" required>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MoTa">Description:</label>
+                    <textarea class="form-control" asp-for="MoTa" rows="3" required></textarea>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" asp-for="IsTrendingProduct">
+                    <label class="form-check-label" asp-for="IsTrendingProduct">Trending Product</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                    <a asp-controller="ShopController1" asp-action="TrangChu" class="btn btn-secondary">Back to Home</a>
+                </div>
+            </form>
+        }
+        else
+        {
+            <p>No data available to edit.</p>
+        }
+    </div>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

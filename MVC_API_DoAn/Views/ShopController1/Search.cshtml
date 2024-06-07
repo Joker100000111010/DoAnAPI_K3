@@ -1,0 +1,56 @@
+﻿@model IEnumerable<MVC_API_DoAn.Models.DTO.ShopDTO>
+
+<section data-bs-version="5.1" class="content2 cid-tsEQSCqggh" id="content2-2">
+    <h2>Kết quả tìm kiếm :</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row mt-4" id="product-list">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 product-card d-flex justify-content-center">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="~/API_DoAn/assets/Anh/@item.ImageUrl" style="height: 500px;" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.TenSP</h5>
+                            <p class="card-text">@item.GiaTien đ</p>
+                            <a asp-controller="ShopController1" asp-action="editShop" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                            <a asp-controller="ShopController1" asp-action="MoTa" asp-route-id="@item.Id" as class="btn btn-primary">Description</a>
+                            <button onclick="confirmDelete(@item.Id)" class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <p>
+            <a asp-controller="ShopController1" asp-action="TrangChu" class="btn btn-secondary">Trở Về Trang Chủ</a>
+        </p>
+    }
+    else
+    {
+        <p>Không tìm thấy sản phẩm nào.</p>
+    }
+</section>
+
+@section Scripts {
+    <script>
+        function confirmDelete(id) {
+            if (confirm("Bạn có chắc chắn muốn xóa sản phẩm này không?")) {
+                fetch(`/Shop/delete-shop-by-id/${id}`, {
+                    method: 'DELETE'
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            window.location.reload();
+                        } else {
+                            alert('Xóa sản phẩm thất bại. Vui lòng thử lại.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Lỗi khi gửi yêu cầu DELETE:', error);
+                        alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                    });
+            }
+        }
+    </script>
+}

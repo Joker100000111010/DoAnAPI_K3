@@ -1,0 +1,68 @@
+﻿@model MVC_API_DoAn.Models.DTO.NhanViendto
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <!-- Your menu section here -->
+    <section class="menu menu3 cid-tsEQosCCDP" once="menu" id="menu3-0">
+        <!-- Menu điều hướng của bạn ở đây -->
+    </section>
+
+    <section class="content2 cid-tsEQSCqggh" id="content2-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title mbr-section-title mbr-fonts-style align-center mb-4 display-2">Edit Employee</h2>
+                            @if (Model != null)
+                            {
+                                <form asp-controller="NhanVien" asp-action="EditNhanVien" method="POST" id="edit-employee-form" enctype="multipart/form-data">
+                                    <div class="form-group">
+                                        <label asp-for="TenNV">Name:</label>
+                                        <input type="text" class="form-control" asp-for="TenNV" required>
+                                        <span asp-validation-for="TenNV" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Email">Email:</label>
+                                        <input type="email" class="form-control" asp-for="Email" required>
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="SDT">Phone:</label>
+                                        <input type="text" class="form-control" asp-for="SDT" required>
+                                        <span asp-validation-for="SDT" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="DiaChi">Address:</label>
+                                        <input type="text" class="form-control" asp-for="DiaChi" required>
+                                        <span asp-validation-for="DiaChi" class="text-danger"></span>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label asp-for="ImgNV" class="form-label">Image</label>
+                                        <input type="text" class="form-control" name="ImgNV" asp-for="ImgNV" accept="image/*">
+                                        <span asp-validation-for="ImgNV" class="text-danger"></span>
+
+                                        <!-- Placeholder for current image -->
+                                        <div id="current-image" class="mt-2"></div>
+                                    </div>
+                                    <input type="hidden" asp-for="Id">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                                        <a asp-controller="NhanVien" asp-action="TrangChuNV" class="btn btn-secondary">Back</a>
+                                    </div>
+                                </form>
+                            }
+                            else
+                            {
+                                <p>No data available to edit.</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

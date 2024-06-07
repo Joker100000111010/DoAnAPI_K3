@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC_API_DoAn.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MVC_API_DoAn.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\AoSoMiLuaCanhHoa.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\AoSoMiLuaCanhHoa.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\Croptop cổ tay rộng.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\Croptop cổ tay rộng.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\Quần tay đen.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\Quần tay đen.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\SET BỘ VEST CÔNG SỞ.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\SET BỘ VEST CÔNG SỞ.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\Váy ngắn.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\Váy ngắn.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\croptop 2 dây.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\croptop 2 dây.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\hashes.json",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\hashes.json"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\logo2.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\logo2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\sanpham9.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\sanpham9.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\Áo thun oops.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\Áo thun oops.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\Áo thun xám.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\Áo thun xám.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\Áo trễ vai.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\Áo trễ vai.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\áo phông màu trắng.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\áo phông màu trắng.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\áo thun croptop trắng.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\áo thun croptop trắng.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\áo thun croptop đen.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\áo thun croptop đen.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\áo thun from rộng.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\áo thun from rộng.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\áo thun sọc.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\áo thun sọc.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\Anh\\áo thun trắng.jpg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\Anh\\áo thun trắng.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\dropdown\\css\\style.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\dropdown\\css\\style.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\dropdown\\js\\navbar-dropdown.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\dropdown\\js\\navbar-dropdown.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\formoid\\formoid.min.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\formoid\\formoid.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\mobirise\\css\\mbr-additional.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\mobirise\\css\\mbr-additional.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\parallax\\jarallax.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\parallax\\jarallax.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\parallax\\jarallax.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\parallax\\jarallax.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\smoothscroll\\smooth-scroll.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\smoothscroll\\smooth-scroll.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\socicon\\css\\styles.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\socicon\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\socicon\\fonts\\socicon.eot",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\socicon\\fonts\\socicon.eot"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\socicon\\fonts\\socicon.svg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\socicon\\fonts\\socicon.svg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\socicon\\fonts\\socicon.ttf",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\socicon\\fonts\\socicon.ttf"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\socicon\\fonts\\socicon.woff",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\socicon\\fonts\\socicon.woff"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\socicon\\fonts\\socicon.woff2",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\socicon\\fonts\\socicon.woff2"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\theme\\css\\style.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\theme\\css\\style.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\theme\\js\\script.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\theme\\js\\script.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\assets\\ytplayer\\index.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\assets\\ytplayer\\index.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\auth.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\auth.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\API_DoAn\\script.js",
+      "PackagePath": "staticwebassets\\API_DoAn\\script.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\API WEB\\WebAPI_DoAn\\MVC_API_DoAn\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC_API_DoAn.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MVC_API_DoAn.props",
+      "PackagePath": "build\\MVC_API_DoAn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MVC_API_DoAn.props",
+      "PackagePath": "buildMultiTargeting\\MVC_API_DoAn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MVC_API_DoAn.props",
+      "PackagePath": "buildTransitive\\MVC_API_DoAn.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,71 @@
+﻿@model MVC_API_DoAn.Models.DTO.addshop
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="~/API_DoAn/assets/images/coffee-icon-sign-symbol-design-free-png.webp" type="image/x-icon">
+    <meta name="description" content="">
+    <title>Thêm Sản Phẩm</title>
+    <link rel="stylesheet" href="~/API_DoAn/assets/web/~/API_DoAn/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="~/API_DoAn/assets/web/~/API_DoAn/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+    <link rel="stylesheet" href="~/API_DoAn/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/API_DoAn/assets/theme/css/style.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap">
+    </noscript>
+    <link rel="stylesheet" href="~/API_DoAn/assets/mobirise/css/mbr-additional.css" type="text/css">
+</head>
+<body>
+    <section class="menu menu3 cid-tsEQosCCDP" once="menu" id="menu3-0"></section>
+    <section class="content2 cid-tsEQSCqggh" id="content2-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title mbr-section-title mbr-fonts-style align-center mb-4 display-2">Thêm Sản Phẩm</h2>
+                            <form asp-controller="ShopController1" asp-action="AddShop" method="POST" id="add-product-form">
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <div class="form-group">
+                                    <label for="product-name">Tên Sản Phẩm:</label>
+                                    <input type="text" class="form-control" id="product-name" name="TenSP" asp-for="TenSP" required>
+                                    @Html.ValidationMessageFor(model => model.TenSP, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="product-image">URL Hình Ảnh:</label>
+                                    <input type="file" class="form-control" id="product-image" name="ImageUrl" asp-for="ImageUrl" accept="image/* " required>
+                                    @Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="product-price">Giá Tiền:</label>
+                                    <input type="number" class="form-control" id="product-price" name="GiaTien" asp-for="GiaTien" required>
+                                    @Html.ValidationMessageFor(model => model.GiaTien, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="product-description">Mô Tả:</label>
+                                    <textarea class="form-control" id="product-description" name="MoTa" asp-for="MoTa" rows="3" required></textarea>
+                                    @Html.ValidationMessageFor(model => model.MoTa, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="is-trending-product" asp-for="IsTrendingProduct" name="IsTrendingProduct">
+                                    <label class="form-check-label" for="is-trending-product">Sản Phẩm Hot</label>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="submit" class="btn btn-primary">Thêm Sản Phẩm</button>
+                                    <a asp-controller="ShopController1" asp-action="TrangChu" class="btn btn-secondary">Trở Về Trang Chủ</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="~/API_DoAn/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/API_DoAn/assets/theme/js/script.js"></script>
+</body>
+</html>
+
