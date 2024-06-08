@@ -136,3 +136,4 @@ D:\FILE CNTT\API WEB\WebAPI_DoAn\WebAPI_DoAn\obj\Debug\net8.0\refint\WebAPI_DoAn
 D:\FILE CNTT\API WEB\WebAPI_DoAn\WebAPI_DoAn\obj\Debug\net8.0\WebAPI_DoAn.pdb
 D:\FILE CNTT\API WEB\WebAPI_DoAn\WebAPI_DoAn\obj\Debug\net8.0\WebAPI_DoAn.genruntimeconfig.cache
 D:\FILE CNTT\API WEB\WebAPI_DoAn\WebAPI_DoAn\obj\Debug\net8.0\ref\WebAPI_DoAn.dll
+D:\FILE CNTT\API WEB\WebAPI_DoAn\WebAPI_DoAn\obj\Debug\net8.0\WebAPI_DoAn.sourcelink.json

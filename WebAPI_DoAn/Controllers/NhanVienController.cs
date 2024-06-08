@@ -33,12 +33,14 @@ namespace WebAPI_DoAn.Controllers
         }
 
         [HttpPost("add-author")]
+        [Authorize(Roles = "Write")]
         public IActionResult AddNhanVien([FromBody] addNhanVien addNhanVien)
         {
             var authorAdd = _nhanVienRepository.AddNhanVien(addNhanVien);
             return Ok();
         }
         [HttpPut("update-author-by-id/{id}")]
+        [Authorize(Roles = "Write")]
         public IActionResult UpdateNhanVienById(int id, [FromBody] NhanVienNoIdDTO
        NhanVienNoIdDTO)
         {
@@ -50,6 +52,7 @@ namespace WebAPI_DoAn.Controllers
             return Ok(NhanVienUpdate);
         }
         [HttpDelete("delete-author-by-id/{id}")]
+        [Authorize(Roles = "Write")]
         public IActionResult DeleteNhanVienById(int id)
         {
             var authorDelete = _nhanVienRepository.DeleteNhanVienById(id);

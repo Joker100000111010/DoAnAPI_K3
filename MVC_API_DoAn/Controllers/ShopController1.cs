@@ -6,6 +6,7 @@ using MVC_API_DoAn.Models.DTO;
 using System.Net.Http;
 using MVC_API_DoAn.Models;
 using System.Diagnostics;
+using System.Net.Http.Headers;
 
 namespace MVC_API_DoAn.Controllers
 {
@@ -16,6 +17,14 @@ namespace MVC_API_DoAn.Controllers
         {
             this.httpClientFactory = httpClientFactory;
         }
+        private void AddAuthorizationHeader(HttpClient client)
+        {
+            var token = HttpContext.Session.GetString("AccessToken");
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
         public async Task<IActionResult> TrangChu([FromQuery] string filteron = null, string filterQuery = null, string sortBy = null, bool isAscending = true)
         {
             List<ShopDTO> response = new List<ShopDTO>();
@@ -23,6 +32,7 @@ namespace MVC_API_DoAn.Controllers
             {
                 // lấy dữ liệu books from API
                 var client = httpClientFactory.CreateClient();
+                AddAuthorizationHeader(client);
                 var httpResponseMess = await client.GetAsync("https://localhost:7073/api/Shop/get-all-books? filterOn=" + filteron + "&filterQuery=" + filterQuery + "&sortBy=" + sortBy + "&isAscending=" + isAscending);
                 httpResponseMess.EnsureSuccessStatusCode();
                 response.AddRange(await httpResponseMess.Content.ReadFromJsonAsync<IEnumerable<ShopDTO>>());
@@ -41,6 +51,7 @@ namespace MVC_API_DoAn.Controllers
             {
                 // lấy dữ liệu books from   
                 var client = httpClientFactory.CreateClient();
+                AddAuthorizationHeader(client);
                 var httpResponseMess = await client.GetAsync("https://localhost:7073/api/Shop/get-book-by-id/" + id);
                 httpResponseMess.EnsureSuccessStatusCode();
                 var stringResponseBody = await httpResponseMess.Content.ReadAsStringAsync();
@@ -69,6 +80,7 @@ namespace MVC_API_DoAn.Controllers
             try
             {
                 var client = httpClientFactory.CreateClient();
+                AddAuthorizationHeader(client);
                 var httpRequestMessage = new HttpRequestMessage()
                 {
                     Method = HttpMethod.Post,
@@ -104,7 +116,7 @@ namespace MVC_API_DoAn.Controllers
         {
             ShopDTO responseBook = null;
             var client = httpClientFactory.CreateClient();
-
+            AddAuthorizationHeader(client);
             try
             {
                 var httpResponseMess = await client.GetAsync($"https://localhost:7073/api/Shop/get-book-by-id/{id}");
@@ -142,6 +154,7 @@ namespace MVC_API_DoAn.Controllers
                 if (ModelState.IsValid)
                 {
                     var client = httpClientFactory.CreateClient();
+                    AddAuthorizationHeader(client);
                     var httpRequestMess = new HttpRequestMessage()
                     {
                         Method = HttpMethod.Put,
@@ -187,6 +200,7 @@ namespace MVC_API_DoAn.Controllers
             try
             {
                 var client = httpClientFactory.CreateClient();
+                AddAuthorizationHeader(client);
                 var httpResponseMess = await client.DeleteAsync("https://localhost:7073/api/Shop/delete-book-by-id/" + id);
                 httpResponseMess.EnsureSuccessStatusCode();
                 return RedirectToAction("TrangChu", "ShopController1");
@@ -204,6 +218,7 @@ namespace MVC_API_DoAn.Controllers
             try
             {
                 var client = httpClientFactory.CreateClient();
+                AddAuthorizationHeader(client);
                 var httpResponseMess = await client.GetAsync($"https://localhost:7073/api/Shop/search?query={query}");
                 httpResponseMess.EnsureSuccessStatusCode();
                 response.AddRange(await httpResponseMess.Content.ReadFromJsonAsync<IEnumerable<ShopDTO>>());

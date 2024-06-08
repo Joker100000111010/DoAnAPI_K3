@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -30,7 +31,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
             Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+       .AddCookie(options =>
+       {
+           options.LoginPath = "/PhanQuyen/Login";
+           options.AccessDeniedPath = "/PhanQuyen/AccessDenied";
+       });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("WritePolicy", policy => policy.RequireRole("Write"));
+});
+
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // C?u hình pipeline x? lý yêu c?u HTTP.

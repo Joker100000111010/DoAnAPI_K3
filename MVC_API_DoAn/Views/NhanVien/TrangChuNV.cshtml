@@ -11,35 +11,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Management</title>
-    <link rel="stylesheet" href="~/API_DoAnassets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/API_DoAn/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/API_DoAn/assets/theme/Employee.css">
+   <style>
+        .employee-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .employee-card{
+            transition: transform 0.3s ease;
+        }
+   </style>
 </head>
 
 <body>
     <div class="container mt-5">
         <h2 class="text-center mb-4">Employee Management</h2>
         <div class="text-right mb-3">
+             @if (User.IsInRole("Write"))
+              {
             <a class="btn btn-primary" asp-controller="NhanVien" asp-action="AddNhanVien">Add Employee</a>
+              }
+            <a asp-controller="ShopController1" asp-action="TrangChu" class="btn btn-secondary">Back</a>
         </div>
 
         <div class="row mt-4" id="employee-list">
             <!-- Dữ liệu nhân viên tĩnh -->
             @foreach (var item in Model)
             {
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img style="height:500px;" src="~/API_DoAn/assets/Anh/@item.ImgNV" class="card-img-top">
+                <div style="border: 1px solid rgba(255, 255, 255, 0.3);" class="col-md-4 employee-card">
+                    <div class="card">
+                        <img style=" width:100%;height:200px;object-fit:cover;" src="~/API_DoAn/assets/Anh/@item.ImgNV" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">@item.TenNV</h5>
                             <p class="card-text">Email: @item.Email</p>
                             <p class="card-text">Phone: @item.SDT</p>
                             <p class="card-text">Address: @item.DiaChi</p>
-                            <div style="display:flex; gap:15px; flex-wrap:wrap;">
-                            <a asp-controller="NhanVien" asp-action="EditNhanVien" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
-                            <form   style="width:30%; position:relative;top:8px;" asp-controller="NhanVien" asp-action="DeleteNhanVien" method="post">
-                                <input  type="hidden" name="id" value="@item.Id" />
-                                <button class="btn btn-danger" type="submit">Delete</button>
-                            </form>
+                            <div style="display:flex; gap:30px;width:85%; margin:auto; flex-wrap:wrap;">
+                                @if (User.IsInRole("Write"))
+                                {
+                                     <form   style="width:35%; height:auto;font-size:20%; ">
+                                        <a asp-controller="NhanVien" asp-action="EditNhanVien" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                                    </form>
+
+                                    <form   style="width:35%; height:auto;font-size:20%; " asp-controller="NhanVien" asp-action="DeleteNhanVien" method="post">
+                                        <input  type="hidden" name="id" value="@item.Id" />
+                                        <button class="btn btn-danger" type="submit">Delete</button>
+                                    </form>
+                                }
                             </div>
                         </div>
                     </div>

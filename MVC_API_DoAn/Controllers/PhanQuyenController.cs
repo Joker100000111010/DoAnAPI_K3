@@ -1,6 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using MVC_API_DoAn.Models.DTO;
+using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace MVC_API_DoAn.Controllers
@@ -31,6 +35,30 @@ namespace MVC_API_DoAn.Controllers
                 var token = tokenResponse.JwtToken;
                 Console.WriteLine($"Received access token: {token}"); // Ghi log để kiểm tra chuỗi token nhận được
                 HttpContext.Session.SetString("AccessToken", token);
+
+                // Giải mã token để lấy thông tin vai trò
+                var handler = new JwtSecurityTokenHandler();
+                var jwtToken = handler.ReadJwtToken(token);
+                var roles = jwtToken.Claims.Where(c => c.Type == ClaimTypes.Role).Select(c => c.Value).ToList();
+
+                // Tạo claims
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, model.Username)
+                };
+                claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
+
+                // Tạo claims identity
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                // Đăng nhập bằng cookie
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
                 return RedirectToAction("TrangChuNV", "NhanVien");
             }
             else
@@ -48,6 +76,11 @@ namespace MVC_API_DoAn.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterDTO model)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
             var client = _httpClientFactory.CreateClient();
             var response = await client.PostAsJsonAsync("https://localhost:7073/api/User/Register", model);
 
@@ -57,7 +90,8 @@ namespace MVC_API_DoAn.Controllers
             }
             else
             {
-                ModelState.AddModelError(string.Empty, "Đăng ký không thành công. Vui lòng thử lại.");
+                var errorContent = await response.Content.ReadAsStringAsync();
+                ModelState.AddModelError(string.Empty, $"Đăng ký không thành công. Vui lòng thử lại. Chi tiết lỗi: {errorContent}");
                 return View(model);
             }
         }

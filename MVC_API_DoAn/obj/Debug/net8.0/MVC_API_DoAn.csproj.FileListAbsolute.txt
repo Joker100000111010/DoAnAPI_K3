@@ -114,3 +114,4 @@ D:\FILE CNTT\API WEB\WebAPI_DoAn\MVC_API_DoAn\bin\Debug\net8.0\Microsoft.AspNetC
 D:\FILE CNTT\API WEB\WebAPI_DoAn\MVC_API_DoAn\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\FILE CNTT\API WEB\WebAPI_DoAn\MVC_API_DoAn\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\FILE CNTT\API WEB\WebAPI_DoAn\MVC_API_DoAn\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\FILE CNTT\API WEB\WebAPI_DoAn\MVC_API_DoAn\obj\Debug\net8.0\MVC_API_DoAn.sourcelink.json

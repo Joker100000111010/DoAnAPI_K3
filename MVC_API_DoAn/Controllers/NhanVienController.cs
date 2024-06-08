@@ -60,6 +60,7 @@ namespace MVC_API_DoAn.Controllers
         }
 
         [HttpPost]
+
         public async Task<IActionResult> AddNhanVien(addNhanVien addNhanVien)
         {
             if (!ModelState.IsValid)
