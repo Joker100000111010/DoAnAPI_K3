@@ -59,7 +59,7 @@ namespace MVC_API_DoAn.Controllers
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
-                return RedirectToAction("TrangChuNV", "NhanVien");
+                return RedirectToAction("TrangChu", "ShopController1");
             }
             else
             {

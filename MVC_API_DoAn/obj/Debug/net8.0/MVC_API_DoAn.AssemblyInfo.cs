@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC_API_DoAn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a40ba7b4024217ffe9bbd1f0af046250b370bc00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bae1e7a9ef437fb2b2af1d899c477a3a6a5e3616")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC_API_DoAn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC_API_DoAn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
